@@ -1,4 +1,4 @@
-# Basic-inventory-python
+# Saving a .json file using Python
 - My Mercenary Management System (OOP Practice)
 Yo! This is one of my early Python projects where I built a system to manage a squad of mercenaries. I wanted to move beyond just basic scripts, so I challenged myself to build something with more "structure."
 
