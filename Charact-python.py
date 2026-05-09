@@ -62,13 +62,13 @@ def Inventory():
     def load():
         if os.path.exists("inventory.json"):
             try: 
-                with open("inventory.json", 'r') as r:
+                with open("Charactor.json", 'r') as r:
                     return json.load(r)
             except: return []
         else: return []
     mercenary = load()
     def save(data):
-        with open("inventory.json", "w") as w:
+        with open("Charactor.json", "w") as w:
             json.dump(data, w)
     def add():
         class_all = ['mc', 'sn', 'md']
