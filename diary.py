@@ -21,12 +21,12 @@ def diary():
             print("all note".center(25, "-"))
             for note in data:
                 print(note["time"], note["note"])
-            print("end".center(25, "-"))
-    exit = False
+            print("end".center(25, "-")
     def clear_all():
         data = []
         print("clear data...")
         save(data)
+    exit = False
     while not exit:
         print("type add, show, clear, exit")
         mode = input("mode : ").lower()
